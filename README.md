@@ -1,7 +1,7 @@
 # Arquitetura-de-Maquinas-2
 projeto facimp 2025 por
 Lucas Bandeira
-Michael Douglas
+Maycon Douglas
 Ricardo Emnu
 Gabriel Tosca
 João Paulo
