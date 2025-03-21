@@ -21,3 +21,7 @@ Campo responsável por gerar e manipular imagens digitais por meio de algoritmos
 
 **• APIs gráficas**  
 Ferramentas como **DirectX 12** e **Vulkan** são essenciais para otimizar o uso do hardware, garantindo maior eficiência e controle sobre os recursos do sistema.
+
+**• Tecnologias de IA e Ray Tracing** 
+Avaliar o impacto de DLSS, FSR e Ray Tracing no desempenho e na qualidade 
+visual, comparando cenários com e sem o uso dessas tecnologias.
