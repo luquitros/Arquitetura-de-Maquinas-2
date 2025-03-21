@@ -3,7 +3,7 @@
 ## **Resumo:**  
 Campo responsável por gerar e manipular imagens digitais por meio de algoritmos e processamento de dados. Sua eficiência depende diretamente da arquitetura de hardware, especialmente da GPU (Unidade de Processamento Gráfico), projetada para executar cálculos complexos em paralelo, essenciais para renderização gráfica.  
 
-**• Tópicos-chave do projeto:**  
+## **• Tópicos-chave do projeto:**  
 
 - **Renderização e Shaders:** Como funcionam as técnicas de renderização e o papel dos shaders na criação de efeitos visuais.  
 
