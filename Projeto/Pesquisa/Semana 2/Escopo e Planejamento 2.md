@@ -17,7 +17,7 @@ Analisar o equilíbrio entre qualidade gráfica e desempenho em jogos e renderiz
 - **Propor recomendações** para equilibrar qualidade gráfica e desempenho em diferentes cenários.
 
 ## **Coleta de Dados:**
-Utilizando o site Benchmark, iremos coletar dados e comparar o desempenho de diferentes CPUs e GPUs em renderização gráfica, identificando quais oferecem o melhor equilíbrio entre qualidade gráfica e desempenho e suas limitações.
+Utilizando o site [Benchmark](https://www.userbenchmark.com/Software), iremos coletar dados e comparar o desempenho de diferentes CPUs e GPUs em renderização gráfica, identificando quais oferecem o melhor equilíbrio entre qualidade gráfica e desempenho e suas limitações.
 
 - **Rank por desempenho** uma lista de GPUs em jogos específicos onde o desempenho é alto.
 
