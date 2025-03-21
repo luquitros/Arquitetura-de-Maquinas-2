@@ -1,6 +1,6 @@
 # **Computação Gráfica, Hardware e Renderização**
 
-**Resumo:**  
+## **Resumo:**  
 Campo responsável por gerar e manipular imagens digitais por meio de algoritmos e processamento de dados. Sua eficiência depende diretamente da arquitetura de hardware, especialmente da GPU (Unidade de Processamento Gráfico), projetada para executar cálculos complexos em paralelo, essenciais para renderização gráfica.  
 
 **• Tópicos-chave do projeto:**  
@@ -15,9 +15,9 @@ Campo responsável por gerar e manipular imagens digitais por meio de algoritmos
 
 **• Impacto nos jogos**  
 
-1. **Gráficos mais realistas e imersivos, que aproximam os jogos da realidade.**  
+1. Gráficos mais realistas e imersivos, que aproximam os jogos da realidade.  
 
-2. **A importância de equilibrar qualidade visual e desempenho para uma experiência suave.**  
+2. A importância de equilibrar qualidade visual e desempenho para uma experiência suave.  
 
 **• APIs gráficas**  
 Ferramentas como **DirectX 12** e **Vulkan** são essenciais para otimizar o uso do hardware, garantindo maior eficiência e controle sobre os recursos do sistema.
