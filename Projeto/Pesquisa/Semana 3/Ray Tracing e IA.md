@@ -31,9 +31,6 @@ A IA melhora o desempenho e a qualidade visual dos jogos de três maneiras princ
 - **Ganho adicional:** **40-100% FPS** extra, dependendo do hardware.
 - **Limitação:** Exclusivo para placas mais novas (DLSS 3 só funciona nas RTX 40xx).
 
-### c) Denoiser por IA
-- **Filtra e reduz o ruído** gerado pelo Ray Tracing em tempo real.
-- **Melhora a qualidade visual** sem impactar o desempenho.
 
 ## 3. Resultados Reais: Comparação de GPUs
 
@@ -59,6 +56,6 @@ Os jogos modernos utilizam IA para **ajustar automaticamente as configurações 
 
 A Inteligência Artificial está **revolucionando o desempenho gráfico** dos jogos, permitindo que tecnologias exigentes como o Ray Tracing se tornem mais viáveis. O **uso de DLSS, FSR e XeSS** melhora significativamente a jogabilidade, enquanto **o Frame Generation proporciona suavidade extra** para GPUs de última geração.
 
-Com essas inovações, jogadores podem desfrutar de **gráficos impressionantes e alto desempenho ao mesmo tempo**, sem precisar comprometer a experiência visual.
+Com essas inSovações, jogadores podem desfrutar de **gráficos impressionantes e alto desempenho ao mesmo tempo**, sem precisar comprometer a experiência visual.
 
 [Exemplo de Comparação](https://www.youtube.com/watch?v=7mLvO3H7dQc)
