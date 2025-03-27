@@ -22,7 +22,7 @@ Utilizando o site [Benchmark](https://www.userbenchmark.com/Software), iremos co
 - **Rank por desempenho** uma lista de GPUs em jogos específicos onde o desempenho é alto.
 
 Selecionaremos GPUs de diferentes gerações e marcas (NVIDIA, AMD, Intel), como:
-- **NVIDIA**: RTX 4090, RTX 3080, RTX 3060.
+- **NVIDIA**: RTX 4090, RTX 3080, RTX 3060, RTX 4060.
 - **AMD**: RX 7900 XTX, RX 6800 XT, RX 6600.
 
 Para uma análise comparativa com o FPS médio obtido nos jogos selecionados em resoluções diferentes.
