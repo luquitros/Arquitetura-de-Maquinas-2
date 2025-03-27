@@ -24,7 +24,10 @@ Os dados foram coletados de fontes confiáveis de benchmark online:
   - *Cyberpunk 2077*, *Hogwarts Legacy*, *Red Dead Redemption 2*.  
   - Configurações: Ultra + Ray Tracing (quando aplicável).  
 - **Consumo de Energia**:  
-  - Medições via software (HWInfo64 + NVIDIA FrameView).  
+  - Medições via software (HWInfo64 + NVIDIA FrameView).
+ 
+  - **Comparação das Placas**
+[UserBenchmark](https://gpu.userbenchmark.com/Compare/Nvidia-RTX-4060-vs-Nvidia-RTX-3060/4150vs4105)
 
 ### 2. Critérios de Comparação  
 - **FPS Médio** em 1080p, 1440p e 4K.  
