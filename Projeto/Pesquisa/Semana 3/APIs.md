@@ -28,7 +28,7 @@ Cada API oferece suporte a diferentes tecnologias gráficas, otimizando a perfor
 
 ## **3. Comparação entre APIs**  
 
-| API      | Melhor Para          | Ray Tracing | DLSS/FSR | Compatibilidade        |  S
+| API      | Melhor Para          | Ray Tracing | DLSS/FSR | Compatibilidade        |  
 |----------|----------------------|-------------|----------|------------------------|  
 | **DX12** | Jogos AAA            | Sim (DXR)   | DLSS 3 (RTX 40xx) | Windows               |  
 | **Vulkan** | Jogos Otimizados   | Sim (VKRay) | DLSS 2, FSR 3 | Windows, Linux        |  
@@ -48,7 +48,11 @@ Os testes de benchmark avaliarão o impacto das APIs no desempenho das GPUs **RT
 ### **Análise de Estabilidade**  
 - Monitoramento de **stuttering** (quedas bruscas de FPS) e do **1% Low FPS**, essencial para garantir uma experiência fluida.  
 
-## **5. Conclusão**  
+## **5. Foco do Projeto: Comparação entre RTX 3060 e RTX 4060**  
+
+O objetivo deste projeto é analisar como **diferentes APIs gráficas** afetam o desempenho das **GPUs NVIDIA RTX 3060 e RTX 4060**, especialmente ao utilizar **Ray Tracing, DLSS e outras tecnologias otimizadas por IA**. Essas placas de vídeo representam duas gerações distintas da NVIDIA, onde a **RTX 4060** traz avanços significativos, como suporte ao **DLSS 3 com Frame Generation**. Ao comparar essas duas GPUs, será possível avaliar a **eficiência do Ray Tracing**, os ganhos de desempenho proporcionados pelo **DLSS e FSR**, além de entender melhor como **DirectX 12 e Vulkan** influenciam na estabilidade e fluidez dos jogos.  
+
+## **6. Conclusão**  
 
 Para o foco deste projeto, que utiliza **Windows** e placas **NVIDIA (RTX 3060/4060)**, o **DirectX 12** é a melhor escolha, pois oferece melhor suporte ao Ray Tracing e tecnologias como **DLSS 3**.  
 
