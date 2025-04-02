@@ -4,13 +4,23 @@ from bs4 import BeautifulSoup
 def get_userbenchmark_data():
     url = "https://gpu.userbenchmark.com/Compare/Nvidia-RTX-4060-vs-Nvidia-RTX-3060/4143vs4105"
     response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"})
-    soup = BeautifulSoup(response.text, 'html.parser')
     
+    if response.status_code != 200:
+        return {"error": "Failed to fetch UserBenchmark data"}
+    
+    soup = BeautifulSoup(response.text, 'html.parser')
     performance = {}
-    for row in soup.find_all('div', class_='value-cell'):  # Pode precisar de ajustes
-        key = row.find_previous_sibling('div').text.strip()
-        value = row.text.strip()
-        performance[key] = value
+    
+    # Adjusted parsing logic to handle potential changes in the website structure
+    rows = soup.find_all('div', class_='bench-group')  # Adjusted class name
+    for row in rows:
+        key_element = row.find('div', class_='name')  # Adjusted class name
+        value_element = row.find('div', class_='value')  # Adjusted class name
+        
+        if key_element and value_element:
+            key = key_element.text.strip()
+            value = value_element.text.strip()
+            performance[key] = value
     
     return performance
 
@@ -20,9 +30,17 @@ def get_passmark_data():
     
     def fetch_score(url):
         response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"})
+        
+        if response.status_code != 200:
+            return "Error fetching data"
+        
         soup = BeautifulSoup(response.text, 'html.parser')
-        score = soup.find('span', class_='orangebig').text.strip()
-        return score
+        score_element = soup.find('span', class_='orangebig')
+        
+        if score_element:
+            return score_element.text.strip()
+        else:
+            return "Score not found"
     
     return {"RTX 4060": fetch_score(url_4060), "RTX 3060": fetch_score(url_3060)}
 
