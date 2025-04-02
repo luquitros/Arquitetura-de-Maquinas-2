@@ -2,7 +2,7 @@
 
 ## 1. O que são APIs gráficas?
 
-APIs (Interfaces de Programação de Aplicações) gráficas são conjuntos de ferramentas e protocolos que permitem a comunicação entre os aplicativos e o hardware gráfico, como placas de vídeo. Elas são essenciais para o desenvolvimento de jogos e outras aplicações que exigem renderização de gráficos complexos, como a renderização 3D, efeitos visuais avançados e inteligência artificial (IA). Entre as principais APIs gráficas, temos o **DirectX**, **Vulkan** e **OpenGL**, cada uma com características próprias e benefícios para diferentes plataformas e tipos de hardware.
+APIs (Interfaces de Programação de Aplicações) gráficas são conjuntos de ferramentas e protocolos que permitem a comunicação entre os aplicativos e o hardware gráfico, como placas de vídeo. Elas são essenciais para o desenvolvimento de jogos e outras aplicações que exigem renderização de gráficos complexos, como a renderização 3D, efeitos visuais avançados e inteligência artificial (IA). Entre as principais APIs gráficas, temos o **DirectX**, **Vulkan** e **OpenGL**, cada uma com características próprias e benefícios para diferentes plataSformas e tipos de hardware.
 
 ## 2. Por que escolher DirectX (especificamente DirectX 12 Ultimate)?
 
