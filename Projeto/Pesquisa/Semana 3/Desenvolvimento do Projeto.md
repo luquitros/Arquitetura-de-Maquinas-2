@@ -15,7 +15,7 @@ Os dados foram coletados de fontes confiáveis de benchmark online:
    - Acessamos os sites de benchmark mencionados acima.
    - Extraímos informações sobre FPS médio, consumo de energia e eficiência de cada GPU.
    - Consideramos benchmarks para resoluções **1080p, 1440p e 4K**.
-
+   
 ### 1. Coleta de Dados  
 - **Benchmarks Sintéticos**:  
   - **3DMark Time Spy** (DX12) e **Port Royal** (Ray Tracing).  
